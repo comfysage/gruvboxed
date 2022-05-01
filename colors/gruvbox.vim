@@ -82,6 +82,10 @@ let s:is_dark=(&background == 'dark')
 " }}}
 " Palette: {{{
 
+let s:vim_bg = ['bg', 'bg']
+let s:vim_fg = ['fg', 'fg']
+let s:none = ['NONE', 'NONE']
+
 " setup palette dictionary
 let s:gb = {}
 
@@ -161,10 +165,6 @@ endif
 
 " }}}
 " Setup Colors: {{{
-
-let s:vim_bg = ['bg', 'bg']
-let s:vim_fg = ['fg', 'fg']
-let s:none = ['NONE', 'NONE']
 
 " determine relative colors
 if s:is_dark
