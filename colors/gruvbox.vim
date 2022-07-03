@@ -353,10 +353,10 @@ if exists('g:gruvbox_invert_tabline')
   endif
 endif
 
-let s:italicize_comments = s:italic
+let s:italicize_comments = ''
 if exists('g:gruvbox_italicize_comments')
-  if g:gruvbox_italicize_comments == 0
-    let s:italicize_comments = ''
+  if g:gruvbox_italicize_comments == 1
+    let s:italicize_comments = s:italic
   endif
 endif
 
