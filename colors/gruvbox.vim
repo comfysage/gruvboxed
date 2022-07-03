@@ -167,11 +167,11 @@ endif
 
 " determine relative colors
 if s:is_dark
-  let s:bg0  = s:gb.dark0
+  let s:bg0  = s:gb.dark0_hard
   if g:gruvbox_contrast_dark == 'soft'
     let s:bg0  = s:gb.dark0_soft
-  elseif g:gruvbox_contrast_dark == 'hard'
-    let s:bg0  = s:gb.dark0_hard
+  elseif g:gruvbox_contrast_dark == 'medium'
+    let s:bg0  = s:gb.dark0
   endif
 
   let s:bg1  = s:gb.dark1
