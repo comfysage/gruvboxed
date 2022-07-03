@@ -1,8 +1,8 @@
 {
   "name": "gruvbox",
   "version": "2.0.0",
-  "repository": "git@github.com:morhetz/gruvbox.git",
-  "author": "Pavel Pertsev <morhetz@gmail.com>",
+  "repository": "git@github.com:crispybaccoon/gruvbox.git",
+  "author": "CrispyBaccoon",
   "license": "MIT",
   "vim": {
     "opt": true
