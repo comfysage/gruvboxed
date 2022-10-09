@@ -938,6 +938,14 @@ hi! link NERDTreeToggleOn GruvboxGreen
 hi! link NERDTreeToggleOff GruvboxRed
 
 " }}}
+" Telescope: {{{
+
+hi! link TelescopeMatching GruvboxAqua
+hi! link TelescopeMultiSelection TelescopeMatching
+hi! link TelescopeSelection CursorLine
+hi! link TelescopePreviewLine TelescopeSelection
+
+" }}}
 " Vim Multiple Cursors: {{{
 
 call s:HL('multiple_cursors_cursor', s:none, s:none, s:inverse)
