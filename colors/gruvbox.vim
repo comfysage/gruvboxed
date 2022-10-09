@@ -678,6 +678,61 @@ if has("spell")
 endif
 
 " }}}
+" Diagnostic: {{{
+
+if has('nvim')
+  hi! link DiagnosticFloatingError ErrorFloat
+  hi! link DiagnosticFloatingWarn WarningFloat
+  hi! link DiagnosticFloatingInfo InfoFloat
+  hi! link DiagnosticFloatingHint HintFloat
+  hi! link DiagnosticError ErrorText
+  hi! link DiagnosticWarn WarningText
+  hi! link DiagnosticInfo InfoText
+  hi! link DiagnosticHint HintText
+  hi! link DiagnosticVirtualTextError VirtualTextError
+  hi! link DiagnosticVirtualTextWarn VirtualTextWarning
+  hi! link DiagnosticVirtualTextInfo VirtualTextInfo
+  hi! link DiagnosticVirtualTextHint VirtualTextHint
+  hi! link DiagnosticUnderlineError ErrorText
+  hi! link DiagnosticUnderlineWarn WarningText
+  hi! link DiagnosticUnderlineInfo InfoText
+  hi! link DiagnosticUnderlineHint HintText
+  hi! link DiagnosticSignError GruvboxRedSign
+  hi! link DiagnosticSignWarn GruvboxYellowSign
+  hi! link DiagnosticSignInfo GruvboxBlueSign
+  hi! link DiagnosticSignHint GruvboxGreenSign
+  hi! link LspDiagnosticsFloatingError DiagnosticFloatingError
+  hi! link LspDiagnosticsFloatingWarning DiagnosticFloatingWarn
+  hi! link LspDiagnosticsFloatingInformation DiagnosticFloatingInfo
+  hi! link LspDiagnosticsFloatingHint DiagnosticFloatingHint
+  hi! link LspDiagnosticsDefaultError DiagnosticError
+  hi! link LspDiagnosticsDefaultWarning DiagnosticWarn
+  hi! link LspDiagnosticsDefaultInformation DiagnosticInfo
+  hi! link LspDiagnosticsDefaultHint DiagnosticHint
+  hi! link LspDiagnosticsVirtualTextError DiagnosticVirtualTextError
+  hi! link LspDiagnosticsVirtualTextWarning DiagnosticVirtualTextWarn
+  hi! link LspDiagnosticsVirtualTextInformation DiagnosticVirtualTextInfo
+  hi! link LspDiagnosticsVirtualTextHint DiagnosticVirtualTextHint
+  hi! link LspDiagnosticsUnderlineError DiagnosticUnderlineError
+  hi! link LspDiagnosticsUnderlineWarning DiagnosticUnderlineWarn
+  hi! link LspDiagnosticsUnderlineInformation DiagnosticUnderlineInfo
+  hi! link LspDiagnosticsUnderlineHint DiagnosticUnderlineHint
+  hi! link LspDiagnosticsSignError DiagnosticSignError
+  hi! link LspDiagnosticsSignWarning DiagnosticSignWarn
+  hi! link LspDiagnosticsSignInformation DiagnosticSignInfo
+  hi! link LspDiagnosticsSignHint DiagnosticSignHint
+  hi! link LspReferenceText CurrentWord
+  hi! link LspReferenceRead CurrentWord
+  hi! link LspReferenceWrite CurrentWord
+  hi! link LspCodeLens VirtualTextInfo
+  hi! link LspCodeLensSeparator VirtualTextHint
+  hi! link LspSignatureActiveParameter Search
+  hi! link healthError GruvboxRed
+  hi! link healthSuccess GruvboxGreen
+  hi! link healthWarning GruvboxYellow
+endif
+
+" }}}
 
 " Plugin specific -------------------------------------------------------------
 " EasyMotion: {{{
