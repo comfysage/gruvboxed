@@ -634,6 +634,114 @@ hi! link Structure GruvboxAqua
 hi! link Typedef GruvboxYellow
 
 " }}}
+" Treesitter: {{{
+
+call s:HL('TSStrong', s:none, s:none, s:bold)
+call s:HL('TSEmphasis', s:none, s:none, s:italic)
+call s:HL('TSUnderline', s:none, s:none, s:underline)
+call s:HL('TSNote', s:blue, s:bg0, s:bold)
+call s:HL('TSWarning', s:yellow, s:bg0, s:bold)
+call s:HL('TSDanger', s:red, s:bg0, s:bold)
+highlight! link TSAnnotation GruvboxPurple
+highlight! link TSAttribute GruvboxPurple
+highlight! link TSBoolean GruvboxPurple
+highlight! link TSCharacter GruvboxAqua
+highlight! link TSComment Comment
+highlight! link TSConditional GruvboxRed
+highlight! link TSConstBuiltin GruvboxBlue
+highlight! link TSConstMacro GruvboxBlue
+highlight! link TSConstant GruvboxPurple
+highlight! link TSConstructor GruvboxGreen
+highlight! link TSException GruvboxRed
+highlight! link TSField GruvboxGreen
+highlight! link TSFloat GruvboxPurple
+highlight! link TSFuncBuiltin GruvboxGreen
+highlight! link TSFuncMacro GruvboxGreen
+highlight! link TSFunction GruvboxGreen
+highlight! link TSInclude GruvboxRed
+highlight! link TSKeyword GruvboxRed
+highlight! link TSKeywordFunction GruvboxRed
+highlight! link TSKeywordOperator GruvboxOrange
+highlight! link TSLabel GruvboxRed
+highlight! link TSMethod GruvboxGreen
+highlight! link TSNamespace GruvboxAqua
+highlight! link TSNone Normal
+highlight! link TSNumber GruvboxPurple
+highlight! link TSOperator GruvboxOrange
+highlight! link TSParameter GruvboxAqua
+highlight! link TSParameterReference GruvboxFg2
+highlight! link TSProperty GruvboxAqua
+highlight! link TSPunctBracket Delimiter
+highlight! link TSPunctDelimiter Delimiter
+highlight! link TSPunctSpecial Special
+highlight! link TSRepeat GruvboxRed
+highlight! link TSStorageClass GruvboxOrange
+highlight! link TSString GruvboxGreen
+highlight! link TSStringEscape GruvboxGreen
+highlight! link TSStringRegex GruvboxGreen
+highlight! link TSSymbol GruvboxFg1
+highlight! link TSTag GruvboxOrange
+highlight! link TSTagDelimiter GruvboxGreen
+highlight! link TSText GruvboxGreen
+highlight! link TSStrike GruvboxGray
+highlight! link TSMath GruvboxBlue
+highlight! link TSType GruvboxYellow
+highlight! link TSTypeBuiltin GruvboxYellow
+highlight! link TSURI markdownUrl
+highlight! link TSVariable GruvboxFg1
+highlight! link TSVariableBuiltin GruvboxBlue
+if has('nvim-0.8.0')
+  highlight! link @annotation TSAnnotation
+  highlight! link @attribute TSAttribute
+  highlight! link @boolean TSBoolean
+  highlight! link @character TSCharacter
+  highlight! link @comment TSComment
+  highlight! link @conditional TSConditional
+  highlight! link @constant TSConstant
+  highlight! link @constant.builtin TSConstBuiltin
+  highlight! link @constant.macro TSConstMacro
+  highlight! link @constructor TSConstructor
+  highlight! link @exception TSException
+  highlight! link @field TSField
+  highlight! link @float TSFloat
+  highlight! link @function TSFunction
+  highlight! link @function.builtin TSFuncBuiltin
+  highlight! link @function.macro TSFuncMacro
+  highlight! link @include TSInclude
+  highlight! link @keyword TSKeyword
+  highlight! link @keyword.function TSKeywordFunction
+  highlight! link @keyword.operator TSKeywordOperator
+  highlight! link @label TSLabel
+  highlight! link @method TSMethod
+  highlight! link @namespace TSNamespace
+  highlight! link @none TSNone
+  highlight! link @number TSNumber
+  highlight! link @operator TSOperator
+  highlight! link @parameter TSParameter
+  highlight! link @parameter.reference TSParameterReference
+  highlight! link @property TSProperty
+  highlight! link @punctuation.bracket TSPunctBracket
+  highlight! link @punctuation.delimiter TSPunctDelimiter
+  highlight! link @punctuation.special TSPunctSpecial
+  highlight! link @repeat TSRepeat
+  highlight! link @storageclass TSStorageClass
+  highlight! link @string TSString
+  highlight! link @string.escape TSStringEscape
+  highlight! link @string.regex TSStringRegex
+  highlight! link @symbol TSSymbol
+  highlight! link @tag TSTag
+  highlight! link @tag.delimiter TSTagDelimiter
+  highlight! link @text TSText
+  highlight! link @strike TSStrike
+  highlight! link @math TSMath
+  highlight! link @type TSType
+  highlight! link @type.builtin TSTypeBuiltin
+  highlight! link @uri TSURI
+  highlight! link @variable TSVariable
+  highlight! link @variable.builtin TSVariableBuiltin
+endif
+
+" }}}
 " Completion Menu: {{{
 
 if version >= 700
