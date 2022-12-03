@@ -134,6 +134,14 @@ let s:gb.faded_purple   = ['#AF7283', 96]      " 143-63-113
 let s:gb.faded_aqua     = ['#9CBE87', 66]      " 66-123-88
 let s:gb.faded_orange   = ['#d8a657', 130]     " 175-58-3
 
+let s:gb.dark_red       = ['#462726', 167]     " 251-73-52
+let s:gb.dark_green     = ['#363a25', 142]     " 184-187-38
+let s:gb.dark_yellow    = ['#483b22', 214]     " 250-189-47
+let s:gb.dark_blue      = ['#2c3735', 109]     " 131-165-152
+let s:gb.dark_purple    = ['#3e2f34', 175]     " 211-134-155
+let s:gb.dark_aqua      = ['#2e3a2e', 108]     " 142-192-124
+let s:gb.dark_orange    = ['#492e21', 208]     " 254-128-25
+
 " }}}
 " Setup Emphasis: {{{
 
@@ -454,6 +462,14 @@ call s:HL('GruvboxBlueSign', s:blue, s:sign_column, s:invert_signs)
 call s:HL('GruvboxPurpleSign', s:purple, s:sign_column, s:invert_signs)
 call s:HL('GruvboxAquaSign', s:aqua, s:sign_column, s:invert_signs)
 call s:HL('GruvboxOrangeSign', s:orange, s:sign_column, s:invert_signs)
+
+call s:HL('GruvboxRedDark', s:red, s:gb.dark_red)
+call s:HL('GruvboxGreenDark', s:green, s:gb.dark_green)
+call s:HL('GruvboxYellowDark', s:yellow, s:gb.dark_yellow)
+call s:HL('GruvboxBlueDark', s:blue, s:gb.dark_blue)
+call s:HL('GruvboxPurpleDark', s:purple, s:gb.dark_purple)
+call s:HL('GruvboxAquaDark', s:aqua, s:gb.dark_aqua)
+call s:HL('GruvboxOrangeDark', s:orange, s:gb.dark_orange)
 
 " }}}
 
