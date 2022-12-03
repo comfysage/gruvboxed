@@ -809,13 +809,13 @@ if has('nvim')
   hi! link DiagnosticFloatingWarn WarningFloat
   hi! link DiagnosticFloatingInfo InfoFloat
   hi! link DiagnosticFloatingHint HintFloat
-  hi! link DiagnosticError ErrorText
-  hi! link DiagnosticWarn WarningText
-  hi! link DiagnosticInfo InfoText
-  hi! link DiagnosticHint HintText
-  hi! link DiagnosticVirtualTextError VirtualTextError
-  hi! link DiagnosticVirtualTextWarn VirtualTextWarning
-  hi! link DiagnosticVirtualTextInfo VirtualTextInfo
+  hi! link DiagnosticError GruvboxRedDark
+  hi! link DiagnosticWarn GruvboxYellowDark
+  hi! link DiagnosticInfo GruvboxAquaDark
+  hi! link DiagnosticHint GruvboxAquaDark
+  hi! link DiagnosticVirtualTextError GruvboxRedDark
+  hi! link DiagnosticVirtualTextWarn GruvboxYellowDark
+  hi! link DiagnosticVirtualTextInfo GruvboxAquaDark
   hi! link DiagnosticVirtualTextHint VirtualTextHint
   hi! link DiagnosticUnderlineError ErrorText
   hi! link DiagnosticUnderlineWarn WarningText
