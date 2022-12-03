@@ -1,8 +1,8 @@
 " -----------------------------------------------------------------------------
-" File: gruvbox.vim
+" File: gruvboxed.vim
 " Description: Retro groove color scheme for Vim
 " Author: CrispyBaccoon
-" Source: https://github.com/CrispyBaccoon/gruvbox
+" Source: https://github.com/CrispyBaccoon/gruvboxed
 " -----------------------------------------------------------------------------
 
 " Supporting code -------------------------------------------------------------
@@ -15,7 +15,7 @@ if version > 580
   endif
 endif
 
-let g:colors_name='gruvbox'
+let g:colors_name='gruvboxed'
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
   finish
