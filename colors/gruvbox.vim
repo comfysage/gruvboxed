@@ -851,9 +851,9 @@ if has('nvim')
   hi! link LspCodeLens VirtualTextInfo
   hi! link LspCodeLensSeparator VirtualTextHint
   hi! link LspSignatureActiveParameter Search
-  hi! link healthError GruvboxRed
-  hi! link healthSuccess GruvboxGreen
-  hi! link healthWarning GruvboxYellow
+  hi! link healthError GruvboxRedDark
+  hi! link healthSuccess GruvboxGreenDark
+  hi! link healthWarning GruvboxYellowDark
 endif
 
 " }}}
