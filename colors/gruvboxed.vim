@@ -76,6 +76,10 @@ if !exists('g:gruvbox_contrast_light')
   let g:gruvbox_contrast_light='medium'
 endif
 
+if !exists('g:gruvbox_transparent_background')
+  let g:gruvbox_transparent_background=0
+endif
+
 let s:is_dark=(&background == 'dark')
 
 " }}}
@@ -176,10 +180,14 @@ endif
 " determine relative colors
 if s:is_dark
   let s:bg0  = s:gb.dark0_hard
+  let s:bg_color = s:bg0
   if g:gruvbox_contrast_dark == 'soft'
     let s:bg0  = s:gb.dark0_soft
   elseif g:gruvbox_contrast_dark == 'medium'
     let s:bg0  = s:gb.dark0
+  endif
+  if g:gruvbox_transparent_background
+    let s:bg0 = ['NONE', 0]
   endif
 
   let s:bg1  = s:gb.dark1
@@ -434,7 +442,7 @@ call s:HL('GruvboxFg2', s:fg2)
 call s:HL('GruvboxFg3', s:fg3)
 call s:HL('GruvboxFg4', s:fg4)
 call s:HL('GruvboxGray', s:gray)
-call s:HL('GruvboxBg0', s:bg0)
+call s:HL('GruvboxBg0', s:bg_color)
 call s:HL('GruvboxBg1', s:bg1)
 call s:HL('GruvboxBg2', s:bg2)
 call s:HL('GruvboxBg3', s:bg3)
