@@ -721,6 +721,7 @@ if has('nvim-0.8.0')
   highlight! link @field TSField
   highlight! link @float TSFloat
   highlight! link @function TSFunction
+  highlight! link @function.call TSConstant
   highlight! link @function.builtin TSFuncBuiltin
   highlight! link @function.macro TSFuncMacro
   highlight! link @include TSInclude
