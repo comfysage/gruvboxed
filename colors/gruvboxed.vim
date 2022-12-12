@@ -704,7 +704,7 @@ highlight! link TSMath GruvboxBlue
 highlight! link TSType GruvboxYellow
 highlight! link TSTypeBuiltin GruvboxYellow
 highlight! link TSURI markdownUrl
-highlight! link TSVariable GruvboxFg1
+highlight! link TSVariable GruvboxFg3
 highlight! link TSVariableBuiltin GruvboxBlue
 if has('nvim-0.8.0')
   highlight! link @annotation TSAnnotation
