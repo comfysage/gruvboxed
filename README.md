@@ -1,113 +1,96 @@
-<!--p align="center"><img src="http://svgur.com/i/3Dp.svg"></p-->
+Gruvboxed is a colorscheme based on the original [gruvbox colorscheme](https://github.com/morhetz/gruvbox) by [morhetz](https://github.com/morhetz).
 
-gruvbox is heavily inspired by [badwolf][], [jellybeans][] and [solarized][].
+Designed as a cozy theme with pastel 'retro groove' colors, the main focus when developing gruvbox is to keep colors easily distinguishable, contrast enough and still pleasant for the eyes.
 
-Designed as a bright theme with pastel 'retro groove' colors and light/dark mode switching in the way of [solarized][]. The main focus when developing gruvbox is to keep colors easily distinguishable, contrast enough and still pleasant for the eyes.
+## Screenshots
 
-   [badwolf]: https://github.com/sjl/badwolf
-   [jellybeans]: https://github.com/nanotech/jellybeans.vim
-   [solarized]: http://ethanschoonover.com/solarized
+<!-- Refer [Gallery][] for more syntax-specific screenshots.
 
-Attention
----------
+   [Gallery]: https://github.com/morhetz/gruvbox/wiki/Gallery -->
 
-1. [Read this first](https://github.com/morhetz/gruvbox/wiki/Terminal-specific)
-2. Typeface from gallery is [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
-3. Typeface from screenshots below is [Fira Mono](https://mozilla.github.io/Fira/)
+![preview ecs](images/preview-cpp.png)
 
-Screenshots
------------
+### LSP Diagnostics
 
-Refer [Gallery][] for more syntax-specific screenshots.
+![preview diagnostics](images/preview-go-diagnostics.png)
 
-   [Gallery]: https://github.com/morhetz/gruvbox/wiki/Gallery
+### Treesitter highlighting
 
-### Dark mode
+![preview go treesitter](images/preview-go-ini.png)
+
+<!-- ### Dark mode
 
 ![Screenshot Dark](http://i.imgur.com/GkIl8Fn.png)
 
 ### Light mode
 
-![Screenshot Light](http://i.imgur.com/X75niEa.png)
+![Screenshot Light](http://i.imgur.com/X75niEa.png) -->
 
 ### Airline theme
 
 ![Screenshot Airline](http://i.imgur.com/wRQceUR.png)
 
-Palette
--------
+## Palette
 
-### Dark mode
+<!--
+### Dark mode -->
 
 ![Palette Dark](http://i.imgur.com/wa666xg.png)
 
+<!--
 ### Light mode
 
-![Palette Light](http://i.imgur.com/49qKyYW.png)
+![Palette Light](http://i.imgur.com/49qKyYW.png) -->
 
-Contrast options
-----------------
+## Contrast options
 
-Refer [wiki section][] for contrast configuration and other options.
+<!-- Refer [wiki section][] for contrast configuration and other options.
 
-   [wiki section]: https://github.com/morhetz/gruvbox/wiki/Configuration#ggruvbox_contrast_dark
+   [wiki section]: https://github.com/morhetz/gruvbox/wiki/Configuration#ggruvbox_contrast_dark -->
 
 ![Contrast Options](http://i.imgur.com/5MSbe6T.png)
 
-Documentation
--------------
+<!-- ## Documentation
 
 Please check [wiki][] for installation details, terminal-specific setup, troubleshooting, configuration options and others.
 
-   [wiki]: https://github.com/morhetz/gruvbox/wiki
+   [wiki]: https://github.com/morhetz/gruvbox/wiki -->
 
-Features
---------
+## Features
 
-* Lots of style-customization options (contrast, color invertion, italics usage etc.)
-* Extended filetype highlighting: Html, Xml, Vim, Clojure, C, Python, JavaScript, TypeScript, PureScript, CoffeeScript, Ruby, Objective-C, Go, Lua, MoonScript, Java, Markdown, Haskell, Elixir
-* Supported plugins: [EasyMotion][], [vim-sneak][], [Indent Guides][], [indentLine][], [Rainbow Parentheses][], [Airline][], [Lightline][], [GitGutter][], [Signify][], [ShowMarks][], [Signature][], [Syntastic][], [Ale][], [CtrlP][], [Startify][], [NERDTree][], [Dirvish][]
+- Lots of style-customization options (contrast, color invertion, italics usage etc.)
+- Extended filetype highlighting: Html, Xml, Vim, Clojure, C, Python, JavaScript, TypeScript, PureScript, CoffeeScript, Ruby, Objective-C, Go, Lua, MoonScript, Java, Markdown, Haskell, Elixir
+- Support for Treesitter highlighting.
+- Support for transparent background.
+- Supported plugins: [EasyMotion][], [vim-sneak][], [Indent Guides][], [indentLine][], [Rainbow Parentheses][], [Airline][], [Lightline][], [GitGutter][], [Signify][], [ShowMarks][], [Signature][], [Syntastic][], [Ale][], [CtrlP][], [Startify][], [NERDTree][], [Dirvish][]
 
-   [EasyMotion]: https://github.com/Lokaltog/vim-easymotion
-   [vim-sneak]: https://github.com/justinmk/vim-sneak
-   [Indent Guides]: https://github.com/nathanaelkane/vim-indent-guides
-   [indentLine]: https://github.com/Yggdroot/indentLine
-   [Rainbow Parentheses]: https://github.com/kien/rainbow_parentheses.vim
-   [Airline]: https://github.com/bling/vim-airline
-   [Lightline]: https://github.com/itchyny/lightline.vim
-   [GitGutter]: https://github.com/airblade/vim-gitgutter
-   [Signify]: https://github.com/mhinz/vim-signify
-   [ShowMarks]: http://www.vim.org/scripts/script.php?script_id=152
-   [Signature]: https://github.com/kshenoy/vim-signature
-   [Syntastic]: https://github.com/scrooloose/syntastic
-   [Ale]: https://github.com/w0rp/ale
-   [CtrlP]: https://github.com/kien/ctrlp.vim
-   [Startify]: https://github.com/mhinz/vim-startify
-   [NERDTree]: https://github.com/scrooloose/nerdtree
-   [Dirvish]: https://github.com/justinmk/vim-dirvish
+  [easymotion]: https://github.com/Lokaltog/vim-easymotion
+  [vim-sneak]: https://github.com/justinmk/vim-sneak
+  [indent guides]: https://github.com/nathanaelkane/vim-indent-guides
+  [indentline]: https://github.com/Yggdroot/indentLine
+  [rainbow parentheses]: https://github.com/kien/rainbow_parentheses.vim
+  [airline]: https://github.com/bling/vim-airline
+  [lightline]: https://github.com/itchyny/lightline.vim
+  [gitgutter]: https://github.com/airblade/vim-gitgutter
+  [signify]: https://github.com/mhinz/vim-signify
+  [showmarks]: http://www.vim.org/scripts/script.php?script_id=152
+  [signature]: https://github.com/kshenoy/vim-signature
+  [syntastic]: https://github.com/scrooloose/syntastic
+  [ale]: https://github.com/w0rp/ale
+  [ctrlp]: https://github.com/kien/ctrlp.vim
+  [startify]: https://github.com/mhinz/vim-startify
+  [nerdtree]: https://github.com/scrooloose/nerdtree
+  [dirvish]: https://github.com/justinmk/vim-dirvish
 
-Contributions
--------------
+## Contributions
 
-See [gruvbox-contrib][] repo for contributions, ports and extras.
+See [gruvbox-contrib](https://github.com/morhetz/gruvbox-contrib) repo for contributions, ports and extras for the original gruvbox colorscheme.
 
-[gruvbox-contrib]: https://github.com/morhetz/gruvbox-contrib
+# Todo
 
-ToDo
-----
+- readme: update list of plugins and filetypes.
+- wiki: add documentation for configuration
 
-* Filetype syntax highlighting (R, TeX, Swift, Erlang)
-* Plugin support (Tagbar, VimPlug)
+## License
 
-Self-Promotion
---------------
-
-If you like gruvbox follow the repository on
-[GitHub](https://github.com/morhetz/gruvbox) and vote for it on
-[vim.org](http://www.vim.org/scripts/script.php?script_id=4349).
-
-License
--------
-[MIT/X11][]
-
-   [MIT/X11]: https://en.wikipedia.org/wiki/MIT_License
+[MIT/X11](https://en.wikipedia.org/wiki/MIT_License)
