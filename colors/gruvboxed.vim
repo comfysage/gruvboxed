@@ -680,7 +680,7 @@ highlight! link TSConstMacro GruvboxBlue
 highlight! link TSConstant GruvboxPurple
 highlight! link TSConstructor GruvboxGreen
 highlight! link TSException GruvboxRed
-highlight! link TSField GruvboxGreen
+highlight! link TSField GruvboxAqua
 highlight! link TSFloat GruvboxPurple
 highlight! link TSFuncBuiltin GruvboxGreen
 highlight! link TSFuncMacro GruvboxGreen
