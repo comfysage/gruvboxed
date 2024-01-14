@@ -1142,14 +1142,14 @@ call s:HL('htmlLink', s:fg4, s:none, s:underline)
 
 hi! link htmlSpecialChar GruvboxOrange
 
-call s:HL('htmlBold', s:vim_fg, s:vim_bg, s:bold)
-call s:HL('htmlBoldUnderline', s:vim_fg, s:vim_bg, s:bold . s:underline)
-call s:HL('htmlBoldItalic', s:vim_fg, s:vim_bg, s:bold . s:italic)
-call s:HL('htmlBoldUnderlineItalic', s:vim_fg, s:vim_bg, s:bold . s:underline . s:italic)
+call s:HL('htmlBold', s:none, s:none, s:bold)
+call s:HL('htmlBoldUnderline', s:none, s:none, s:bold . s:underline)
+call s:HL('htmlBoldItalic', s:none, s:none, s:bold . s:italic)
+call s:HL('htmlBoldUnderlineItalic', s:none, s:none, s:bold . s:underline . s:italic)
 
-call s:HL('htmlUnderline', s:vim_fg, s:vim_bg, s:underline)
-call s:HL('htmlUnderlineItalic', s:vim_fg, s:vim_bg, s:underline . s:italic)
-call s:HL('htmlItalic', s:vim_fg, s:vim_bg, s:italic)
+call s:HL('htmlUnderline', s:none, s:none, s:underline)
+call s:HL('htmlUnderlineItalic', s:none, s:none, s:underline . s:italic)
+call s:HL('htmlItalic', s:none, s:none, s:italic)
 
 " }}}
 " Xml: {{{
