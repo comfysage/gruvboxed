@@ -8,6 +8,11 @@
 " Supporting code -------------------------------------------------------------
 " Initialisation: {{{
 
+if has('nvim')
+  lua require 'gruvboxed'.load()
+  finish
+endif
+
 if version > 580
   hi clear
   if exists("syntax_on")
