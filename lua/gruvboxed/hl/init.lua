@@ -122,7 +122,7 @@ function M.setup(theme, config)
     TSNone               = { link = "Normal" },
     TSNumber             = { link = "Number" },
     TSOperator           = { link = "Operator" },
-    TSParameter          = { link = "Identifier" },
+    TSParameter          = { theme.aqua },
     TSParameterReference = { link = "TSParameter" },
     TSProperty           = { theme.syntax.object },
     TSPunctBracket       = { theme.syntax.context },
