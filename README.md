@@ -1,14 +1,44 @@
+![preview ecs](images/preview-cpp.png)
+
 Gruvboxed is a colorscheme based on the original [gruvbox colorscheme](https://github.com/morhetz/gruvbox) by [morhetz](https://github.com/morhetz).
 
 Designed as a cozy theme with pastel 'retro groove' colors, the main focus when developing gruvbox is to keep colors easily distinguishable, contrast enough and still pleasant for the eyes.
+
+## Installation
+
+gruvboxed can be installed using [lazy.nvim](https://github.com/folke/lazy.nvim) like this:
+
+```Lua
+{
+  'comfysage/gruvboxed',
+  priority = 1000,
+  opts = {
+    transparent_background = false,
+    contrast_dark = 'medium',
+    override_terminal = true,
+    style = {
+      tabline = { reverse = true, color = 'green' },
+      search = { reverse = false, inc_reverse = true },
+      types = { italic = true },
+      keyword = { italic = true },
+      comment = { italic = false },
+    },
+    overrides = {},
+  }
+}
+```
+
+gruvboxed can then be used like this:
+
+```lua
+vim.cmd.colorscheme 'gruvboxed'
+```
 
 ## Screenshots
 
 <!-- Refer [Gallery][] for more syntax-specific screenshots.
 
    [Gallery]: https://github.com/morhetz/gruvbox/wiki/Gallery -->
-
-![preview ecs](images/preview-cpp.png)
 
 ### LSP Diagnostics
 
